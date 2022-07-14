@@ -6,11 +6,12 @@
     padding: 0;
     box-sizing: border-box;
     scroll-margin: 50px;  
+     -webkit-tap-highlight-color: transparent;
 }
 body{
    overflow-x: hidden;
   height: 100%;
-     -webkit-tap-highlight-color: transparent;
+    
 }
 html{
     overflow-x: hidden;
