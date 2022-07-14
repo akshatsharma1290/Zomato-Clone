@@ -489,6 +489,8 @@ transition: 0.5s;
 .noshow{
     transition: 0s;
     }
-
+.break{
+    display: block;
+}
 
  
