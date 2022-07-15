@@ -1,4 +1,4 @@
-@media (max-width:600px){
+@media (max-width:992px){
 .right-content a{
     display: block;
     width: 189px;
@@ -58,7 +58,9 @@ z-index: 1;
     overflow-y: hidden;
    
 }
-
+.line-sm{
+    display: none;
+}
 
 .line-1{
     background-color: black;
@@ -106,7 +108,7 @@ font-family: 'Poppins', sans-serif;
     width: 180px;
 }
 .main-part{
- height: 75vh;
+ min-height: 75vh;
 }
 .sub-line{
     font-size: 1.4rem;
@@ -207,10 +209,7 @@ margin-left: 2vw;
 
 .top{
     font-size: 0.70rem;
-    margin-left: 0;
-display: flex;
-justify-content: center;
-align-items: center;
+  
 }
 .items{
     flex-wrap: wrap;
@@ -260,6 +259,109 @@ align-items: center;
 
 
 
+
+
+}
+
+@media (min-width:600px) and (max-width:992px){
+
+.main-part{
+    height: 65vh;
+}
+.two{
+    left: -35vw;
+z-index: 1;
+}
+.inp2{
+    width:75vw;
+    padding-left: 6vw;
+}
+ul{
+    z-index: 2;
+}
+.box3{
+    margin-right: 45vw;
+}
+.phone-imgs{
+    display: none;
+}
+.b1{
+    display: block;
+}
+.main-con h2{
+    align-self: center;
+    margin-left: 0;
+    margin-bottom: 1vh;
+}
+
+.main-con , .main-con p{
+    margin: 0;
+}
+.top h2{
+    margin-bottom: 1vh;
+}
+.items{
+    margin-top: 1vh;
+}
+.item4 h3{
+    width: 100vw;
+}
+.sixth-part{
+    margin-top: 3vh;
+    min-height: 14vh;
+}
+
+
+
+
+}
+
+@media (min-width:993px) and (max-width:1200px){
+
+.right-content{
+    margin-left: 2vw;
+}
+.navbar ul li{
+    padding: 0 2vw;
+}
+.mid-part img{
+    width: 28vw;
+margin-right: 2vw;
+}
+.box-content{
+    width: 28vw;
+}
+.big-img1{
+    width: 46vw;
+}
+.big-img2{
+    width: 47vw;
+
+}
+.main-con{
+    margin-left: 4vw;
+}
+.item1 , .item2 , .item3{
+    width: 28vw;
+}
+.sixth-part{
+    min-height: 20vh;
+}
+
+
+
+}
+
+@media (min-width:1376px) and (max-width:3000px){
+
+.main-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+}
 
 
 }
