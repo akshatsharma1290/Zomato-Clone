@@ -87,7 +87,7 @@ font-size: 2rem;
     outline: none;
     border: none;
   
-    font-size: 0.89rem;
+   
 }
 .line-sm{
     background-color: rgb(207, 207, 207);
@@ -115,12 +115,14 @@ align-items: center;
 .inp1{
     width: 169px;
     padding-left: 10px;
+     font-size: 0.89rem;
 }
 .inp2{
     width: 403px;
     border-bottom-right-radius: 10px;
 border-top-right-radius: 10px;
 padding-left: 10px;
+     font-size: 0.89rem;
 }
 
 .location-icon{
