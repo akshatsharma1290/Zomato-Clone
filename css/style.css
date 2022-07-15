@@ -37,6 +37,7 @@ html{
 
 .navbar ul{
     display: flex;
+   z-index: 2;
 }
 .navbar ul li{
     list-style: none;
